@@ -20,7 +20,7 @@ function App() {
               onClick={() => setCurrentProblem(problem.component)}
               className="cursor-pointer"
             >
-              <div className="inline-block p-4 rounded-t-lg active ">
+              <div className="inline-block p-4 rounded-t-lg active text-lg">
                 {problem.title}
               </div>
             </li>

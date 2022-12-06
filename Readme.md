@@ -13,3 +13,5 @@
 2. Run `cd lateral && npm install`
 3. Run `npm run dev` - starts the client side server.
 4. Open localhost:5173 in web browser to interact with client side.
+
+### Deployed version link : https://lateral.vercel.app/
