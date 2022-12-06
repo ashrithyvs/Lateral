@@ -29,7 +29,7 @@ function App() {
       </ul>
       {currentProblem}
       <h4 className="text-xl py-4 w-full text-center text-slate-50">
-        Ashrith Yakkali - 19MIS7057
+        Ashrith Yakkali - 19MIS7057 (CSE3002 - C2+TC2 slot)
       </h4>
     </div>
   );
