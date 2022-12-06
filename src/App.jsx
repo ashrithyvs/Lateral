@@ -15,7 +15,7 @@ function App() {
     { title: "8 Puzzle", component: <EightPuzzle /> },
     { title: "N Queen", component: <NQueen /> },
   ];
-  const [currentProblem, setCurrentProblem] = useState(problems[4].component);
+  const [currentProblem, setCurrentProblem] = useState(problems[3].component);
 
   return (
     <div className="min-w-[99.2vw] min-h-screen">
