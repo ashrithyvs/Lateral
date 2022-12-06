@@ -24,12 +24,12 @@ function EightPuzzle() {
   }
 
   return (
-    <div className="bg-teal-500 w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center py-12">
+    <div className="bg-[#B76D68] w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center py-12">
       <div className="w-1/6 mb-12 flex flex-col items-center">
         <select
           value={currentAlgo}
           onChange={(e) => setCurrentAlgo(e.target.value)}
-          className="w-full bg-teal-400 border-[1px] p-2 outline-slate-50 border-slate-50 mb-4 text-slate-50"
+          className="w-full bg-[#B76D68] border-[1px] p-2 outline-slate-50 border-slate-50 mb-4 text-slate-50"
         >
           {algos.map((algo) => {
             return (
@@ -44,7 +44,7 @@ function EightPuzzle() {
             setLoading(true);
             runAlgo();
           }}
-          className=" px-2 border-[1px] border-slate-50"
+          className=" px-4 border-[1px] border-slate-50 py-2 rounded-lg"
         >
           Start
         </button>

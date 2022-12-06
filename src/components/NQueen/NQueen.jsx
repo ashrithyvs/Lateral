@@ -53,7 +53,7 @@ function NQueen() {
   }
 
   return (
-    <div className="bg-teal-500 w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center py-12">
+    <div className="bg-[#8ea5bb] w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center py-12">
       <div className="flex flex-col">
         {board.length !== 0 ? (
           board.map((row, rowIdx) => {

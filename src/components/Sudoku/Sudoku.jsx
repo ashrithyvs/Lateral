@@ -80,20 +80,21 @@ function Sudoku() {
   }, []);
 
   return (
-    <div className="bg-green-500 w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center space-y-6 ">
-      <button
-        onClick={() => {
-          inputBoard.length !== 0 && SetOutputBoard(solveSudoku(grid, 0, 0));
-        }}
-      >
-        Solve
-      </button>
+    <div className="bg-[#035fbb] w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center space-y-6 ">
       <div className="flex space-x-6">
         {inputBoard.length !== 0 && (
           <InputBoard grid={inputBoard} SetInputBoard={SetInputBoard} />
         )}
         {outputBoard.length !== 0 && <OutputBoard grid={outputBoard} />}
       </div>
+      <button
+        className="px-4 py-2 rounded-lg border-[1px] border-slate-50"
+        onClick={() => {
+          inputBoard.length !== 0 && SetOutputBoard(solveSudoku(grid, 0, 0));
+        }}
+      >
+        Solve
+      </button>
     </div>
   );
 }

@@ -75,7 +75,7 @@ function WaterJug() {
     if ((Jug1 !== 0) & (Jug2 !== 0)) setResult(BFS(Jug1, Jug2, target));
   }, [Jug1, Jug2, target]);
   return (
-    <div className="bg-orange-300 w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center space-y-6 py-20">
+    <div className="bg-orange-400 w-full min-h-screen text-slate-50 flex flex-col mx-auto justify-center items-center space-y-6 py-20">
       <div className=" flex space-x-6">
         <div className="flex space-x-4">
           <span>Jug 1:</span>
